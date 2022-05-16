@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@500&family=Poppins:wght@200;300&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+.background{
+background-color: rgb(199, 220, 225);
+height:43.55rem;
+font-family: 'Poppins', sans-serif;
+padding-bottom: 250px;
+}
+.bgimg{
+  position: relative;
+ background-size: cover;
+ height: 400px;
+} 
+.title{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-family: 'Podkova', serif;
+}
+.arrow{
+  color:#2AA7DF;
+}
+.header{
+background-color: rgb(199, 220, 225);
+}
+.form-control:focus {
+box-shadow:none !important;
+} 
+.petsimg{
+    height: 35px;
+    width: 35px;
+}
+.gridBox{
+  position: relative;
+}
+.PetsImg{
+  height: 200px;
+  border-radius: 40px;
+}
+.caption{
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;   
+}
+.icon{
+  color: #B0C3CE;
+}
+.icon:hover{
+  color: #2AA7DF;
+}
+.active{
+  color:#2AA7DF; 
+}
+.para{
+  line-height: 1;
+}
+.headbody .headitem{
+  font-weight: 500;
+  color: rgb(66, 65, 65);
+  background-color:#DEEAED;
+}
+.headbody .active{
+  color: white;
+  background-color: #0093E9;
+}
