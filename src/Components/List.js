@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import {AiOutlineSearch} from 'react-icons/ai';
 import axios from 'axios';
 import {NavLink} from 'react-router-dom';
-import Footer from './Footer';
+import Footer from './Footer'
 
 function List() {
     const [APIData, setAPIData] = useState([]);
